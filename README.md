@@ -118,6 +118,15 @@ Generated password (string)
 - UI/UX design without frontend frameworks
 
 ---
+## 🔧 Maven Setup
+
+This project uses Apache Maven to build and run the backend.
+
+if you dont have maven use this documentation;
+
+Installation instructions for all operating systems can be found here:
+👉 https://maven.apache.org/install.html
+
 
 ## 👨‍💻 Author
 
