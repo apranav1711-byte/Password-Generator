@@ -115,15 +115,6 @@ Generated password (string)
 
 ---
 
-## 🚧 Future Enhancements
-
-- Password history
-- Show / hide password toggle
-- Dark / light theme
-- Deployment to cloud platform
-
----
-
 ## 👨‍💻 Author
 
 Developed as a full-stack practice project focusing on backend architecture,
