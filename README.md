@@ -7,6 +7,10 @@ The project follows **clean separation of concerns**:
 - Backend handles secure password generation only
 
 ---
+## 📸 Screenshot
+
+![Password Generator UI](images/ui.png)
+
 
 ## 🚀 Key Features
 
