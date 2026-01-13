@@ -16,10 +16,8 @@ const copyBtn = document.getElementById("copyBtn");
 
 const strengthBar = document.getElementById("strengthBar");
 
-// ===== INITIAL STATE =====
 lengthValue.textContent = lengthSlider.value;
 
-// ===== SYNC SLIDER <-> NUMBER INPUT =====
 lengthSlider.addEventListener("input", () => {
   lengthInput.value = lengthSlider.value;
   lengthValue.textContent = lengthSlider.value;
@@ -39,11 +37,9 @@ lengthInput.addEventListener("input", () => {
   updateStrength();
 });
 
-// ===== GENERATE PASSWORD =====
 generateBtn.addEventListener("click", generatePassword);
 
 function generatePassword() {
-  // Validation: at least one checkbox must be selected
   if (
     !lowercaseEl.checked &&
     !uppercaseEl.checked &&
@@ -81,7 +77,6 @@ function generatePassword() {
     });
 }
 
-// ===== COPY TO CLIPBOARD =====
 copyBtn.addEventListener("click", copyPassword);
 
 function copyPassword() {
@@ -95,7 +90,6 @@ function copyPassword() {
   });
 }
 
-// ===== PASSWORD STRENGTH LOGIC =====
 function updateStrength() {
   let strength = 0;
 
@@ -123,7 +117,6 @@ function updateStrength() {
   }
 }
 
-// ===== UPDATE STRENGTH ON OPTION CHANGE =====
 [
   lowercaseEl,
   uppercaseEl,
